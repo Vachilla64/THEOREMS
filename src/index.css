@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.glass {
+    /* 1. Semi-transparent background (The core of the glass) */
+    background: rgba(255, 255, 255, 0.15);
+
+    /* 2. The blur effect (Needs a pixel value) */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+
+    /* 3. Your existing border, which gives it that nice edge highlight */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    /* 4. Rounded corners (Optional, but standard for glassmorphism) */
+    border-radius: 16px;
+
+    /* 5. A subtle shadow to lift it off the background */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /*
+   * Optional: raw CSS variables (e.g. var(--color-charcoal)) for non-Tailwind CSS.
+   * Tailwind utilities (bg-charcoal, text-safety, …) come from tailwind.config.js.
+   */
+    :root {
+        font-size: 15px;
+        --color-charcoal: #242424;
+        --color-charcoal-light: #2a2a2a;
+        --color-safety: #ff8c00;
+        --color-safety-muted: #e67e00;
+        --color-brand-light: #38bdf8;
+        --color-brand-dark: #0369a1;
+        --color-cred: #ed1c24;
+        --color-cblue: #2e3192;
+        --color-cdblue: #04192b;
+        --color-cgreen: #009444;
+        --color-cyellow: #f9ed32;
+    }
+}
