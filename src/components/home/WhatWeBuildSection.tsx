@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { whatWeBuildCards } from "./homeImages";
 import FadeSection from "./FadeSection";
 
-const FacetCard = ({ card, index }) => {
+const FacetCard = ({ card, index }: { card: any, index: number }) => {
   return (
     <motion.article
       key={`cap-${card.title}`}

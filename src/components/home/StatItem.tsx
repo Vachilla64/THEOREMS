@@ -10,20 +10,20 @@ const accentNumberClass: Record<StatAccent, string> = {
   cyellow: "text-cyellow",
 };
 
-const accentLabelClass: Record<StatAccent, string> = {
-  cred: "text-cred/80",
-  cgreen: "text-cgreen/80",
-  cblue: "text-cblue/80",
-  /* yellow is light — use charcoal label for readability */
-  cyellow: "text-charcoal",
-};
+// const accentLabelClass: Record<StatAccent, string> = {
+//   cred: "text-cred/80",
+//   cgreen: "text-cgreen/80",
+//   cblue: "text-cblue/80",
+//   /* yellow is light — use charcoal label for readability */
+//   cyellow: "text-charcoal",
+// };
 
-const accentBarClass: Record<StatAccent, string> = {
-  cred: "bg-cred",
-  cgreen: "bg-cgreen",
-  cblue: "bg-cblue",
-  cyellow: "bg-cyellow",
-};
+// const accentBarClass: Record<StatAccent, string> = {
+//   cred: "bg-cred",
+//   cgreen: "bg-cgreen",
+//   cblue: "bg-cblue",
+//   cyellow: "bg-cyellow",
+// };
 
 export default function StatItem({
   value,
