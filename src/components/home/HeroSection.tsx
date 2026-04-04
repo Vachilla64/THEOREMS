@@ -33,7 +33,7 @@ export default function HeroSection() {
       {/*<div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/30 to-transparent" />*/}
 
       {/* --- Content Layer --- */}
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-12 px-4 py-24 md:flex-row md:px-8 lg:gap-20">
+      <div className="relative z-12 \ mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-12 px-4 py-24 md:flex-row md:px-8 lg:gap-20">
         
         {/* LEFT COLUMN: Typography & CTA */}
         <div className="flex w-full flex-col items-start pt-10 md:w-1/2 md:pt-0">
@@ -44,7 +44,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Empowering Industries Across Africa & the Middle East
+            Empowering Industries Across Asia, Africa & the Middle East
           </motion.h1>
 
           <motion.p
