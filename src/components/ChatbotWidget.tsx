@@ -187,7 +187,7 @@ export default function ChatbotWidget() {
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.4, ease: "easeOut", type: "spring", damping: 25 }}
             // UPGRADED GLASSMORPHISM STYLING
-            className="fixed bottom-28 right-4 z-50 flex h-[25.5rem] w-[calc(100vw-1.5rem)] max-w-sm flex-col overflow-hidden rounded-[2rem] border-0 glass border-white/40 bg-white/80 shadow-[0_8px_40px_rgba(0,0,0,0.15)] backdrop-blur-xl md:right-8"
+            className="fixed bottom-28 right-4 z-50 flex h-[30rem] md:h-[25.5rem] w-[calc(100vw-1.5rem)] max-w-sm flex-col overflow-hidden rounded-[2rem] border-0 glass border-white/40 bg-white/80 shadow-[0_8px_40px_rgba(0,0,0,0.15)] backdrop-blur-xl md:right-8"
           >
             {/* Header - Modern Gradient */}
             <div className="flex items-center gap-4 bg-gradient-to-r from-charcoal to-gray-800 p-5 text-white shadow-md z-10">
